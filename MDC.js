@@ -10,4 +10,5 @@ function calcularMDC(a, b) {
 var n1 = 8;
 var n2 = 12;
 var MDC = calcularMDC(n1, n2);
+module.exports = MDC
 console.log(`O MDC entre ${n1} e ${n2} é ${MDC}.`);

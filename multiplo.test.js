@@ -1,7 +1,6 @@
-//const {multiplo} = require('./multiplo')
-import somaa from './multiplo.js'
+const multiplo = require('./multiplo')
 describe('Funções matematicas', () =>{
     it('Multiplo', () =>{
-        expect(somaa).toEqual(156361)
+        expect(multiplo).toEqual(166833)
     })
 })
